@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="mn"> <head>
+  <title>Лаб 2</title> <meta charset="UTF-8"> </head>
+<body>
+  <h1>Мэдээллүүдээ оруулна уу!</h1> <form name="fomel" method="post" action="process.php"> <label for="Fname">First name:</label> <input type="text" id="Fname" name="Fname" size="15" maxlength="25" required>
+    <br>
+    <label for="Ovog">Овог:</label>
+    <input type="text" id="Ovog" name="Ovog" size="15" maxlength="25" required>
+    <br>
+    <label for="Uovog">Ургийн овог:</label>
+    <input type="text" id="Uovog" name="Uovog" size="15" maxlength="25" required>
+    <br>
+    <label for="Country">Төрсөн газар:</label>
+    <input type="text" id="Country" name="Country" size="25" maxlength="25" required>
+    <br>
+    <label for="OKod">Оюутны код:</label>
+    <input type="text" id="OKod" name="OKod" size="10" maxlength="10" required>
+    <br>
+    <label for="Zurag">Зураг:</label>
+    <input type="file" id="Zurag" name="Zurag" accept="image/*"> <br>
+    <button type="submit">Submit</button> </form>
+</body>
+</html>
