@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="mn"> <head>
-  <title>Лаб 3</title> <meta charset="UTF-8"> </head>
+  <title>lab 3</title> <meta charset="UTF-8"> </head>
 <body>
-  <h1>Мэдээллүүдээ оруулна уу!</h1> <form name="fomel" method="post" action="process.php"> <label for="Fname">First name:</label> <input type="text" id="Fname" name="Fname" size="15" maxlength="25" required>
+  <h1>Мэдээллүүдээ оруулна уу!</h1> 
+  <form name="fomel" method="post" action="process.php"> 
+    <label for="Fname">Нэр:</label> 
+    <input type="text" id="Fname" name="Fname" size="15" maxlength="25" required>
     <br>
-    <form>
-
     
     <label for="Ovog">Овог:</label>
     <input type="text" id="Ovog" name="Ovog" size="15" maxlength="25" required>
     <br>
+    
     <label for="Uovog">Ургийн овог:</label>
     <input type="text" id="Uovog" name="Uovog" size="15" maxlength="25" required>
     <br>
+    
     <label for="TursunOgnoo">Төрсөн огноо:</label>
     <input type="date" id="TursunOgnoo" name="TursunOgnoo">
     <br>
+    
     <label for="Country">Төрсөн газар:</label>
     <input type="text" id="Country" name="Country" size="25" maxlength="25" required>
     <br>
+    
     <label for="OKod">Оюутны код:</label>
     <input type="text" id="OKod" name="OKod" size="10" maxlength="10" required>
     <br>
+    
     <label for="phone">Утасны дугаар:</label>
     <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
     <br>
-    <label for="Zurag">Зураг:</label>
-    <input type="file" id="Zurag" name="Zurag" accept="image/*"> <br>
-    <button type="submit">Submit</button> </form>
+    
     <label for="email">Цахим хаягаа оруулна уу:</label>
     <input type="email" id="email" name="email">
+    <br>
+    
+    <label for="Zurag">Зураг:</label>
+    <input type="file" id="Zurag" name="Zurag" accept="image/*">
+    <br>
+    
+    <button type="submit">Submit</button> 
     <input type="reset">
   </form>
     <h3>Харьяалагдах салбар болон хөтөлбөр</h3>
-    <iframe src="https://www.w3schools.com"></iframe>
+    
     <p>Салбар сургиулаа сонгоно уу:</p>
 
 <form>
@@ -67,15 +78,7 @@
 </form>
 
 <hr>
-<video width="320" height="240" controls>
-  <source src="IMG_E2781.MOV" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
-
-  <audio controls>
-    <source src="Focus.mp3" type="audio/mp3">
-  </audio>
   
 </body>
 </html>
